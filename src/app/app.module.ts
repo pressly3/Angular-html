@@ -3,10 +3,16 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HederComponent } from './shared/heder/heder.component';
+import { FooterComponent } from './shared/footer/footer.component';
+import { PortafolioComponent } from './pages/portafolio/portafolio.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HederComponent,
+    FooterComponent,
+    PortafolioComponent
   ],
   imports: [
     BrowserModule,
